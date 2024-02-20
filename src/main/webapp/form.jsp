@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
-    <title>Tarea Servlets</title>
+    <title>Ejemplo formulario Servlet</title>
+    <link rel="stylesheet" type="text/css" href="../style.css"
 </head>
 <body>
+    <div>
+    <h3>Ejemplo formulario servlet</h3>
 
-    <h2>HTML Forms</h2>
-
-    <form action="/src/main/java/ejemplos/servlet/curso/MyServlet2.java">
+    <form action="MyServlet2" method="get">
     <label for="fname">Nombre:</label><br>
     <input type="text" id="fname" name="fname" value="Daniel"><br>
     <label for="lname">Apellido:</label><br>

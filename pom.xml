@@ -53,6 +53,9 @@
                     </scanTargets>
                     <stopKey/>
                     <stopPort/>
+                    <httpConnector>
+                        <port>8088</port>
+                    </httpConnector>
                 </configuration>
             </plugin>
         </plugins>
