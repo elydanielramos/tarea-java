@@ -1,4 +1,4 @@
-package ejemplos.servlet.curso;
+package ejemplos.servlet.curso.finalizado;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;

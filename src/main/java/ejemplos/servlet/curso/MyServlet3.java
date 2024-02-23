@@ -11,6 +11,7 @@ import java.io.IOException;
 @WebServlet(urlPatterns = "/myServlet3")
 public class MyServlet3 extends HttpServlet {
 
+	//Tarea del servlet con archivo .jsp
 	protected void doGet(HttpServletRequest request,
 			HttpServletResponse response) throws ServletException, IOException {
 
