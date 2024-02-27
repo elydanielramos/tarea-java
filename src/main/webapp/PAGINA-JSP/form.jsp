@@ -9,7 +9,7 @@
     <div>
     <h3>Ejemplo formulario servlet</h3>
 
-    <form action="myServlet2" method="get">
+    <form action="/myServlet2" method="get">
     <label for="fname">Nombre:</label><br>
     <input type="text" id="fname" name="fname" value="Daniel"><br>
     <label for="lname">Apellido:</label><br>
