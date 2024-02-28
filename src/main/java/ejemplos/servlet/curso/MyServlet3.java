@@ -18,7 +18,7 @@ public class MyServlet3 extends HttpServlet {
 //		RequestDispatcher dispatcher = request.getRequestDispatcher("form.jsp");
 //		dispatcher.forward(request, response);
 
-	response.sendRedirect("PAGINA-JSP/form.jsp");
+	request.getRequestDispatcher("PAGINA-JSP/form.jsp").forward(request, response);
 
 	}
 

@@ -10,7 +10,7 @@
 <body>
 
     <div>
-    <h2>Welcome ${param.name}!</h2>
+    <h2>Welcome ${name}!</h2>
     </div>
 
 </body>

@@ -14,7 +14,7 @@ public class MyServlet2 extends HttpServlet {
 	protected void doGet(HttpServletRequest request,
 			HttpServletResponse response) throws ServletException, IOException {
 
-		response.sendRedirect("PAGINA-JSP/welcome.jsp");
+		request.getRequestDispatcher("PAGINA-JSP/welcome.jsp").forward(request, response);
 
 	}
 
