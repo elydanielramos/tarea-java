@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page import="java.util.Date" %>
 <html>
 <head>
     <meta charset="UTF-8">
@@ -11,7 +13,7 @@
 
     <form action="/myServlet2" method="get">
     <label for="fname">Nombre:</label><br>
-    <input type="text" id="fname" name="fname" value="Daniel"><br>
+    <input type="text" id="fname" name="param.name" value="Daniel"><br>
     <label for="lname">Apellido:</label><br>
     <input type="text" id="lname" name="lname" value="Ramos"><br><br>
     <input type="submit" value="Enviar">
